@@ -22,4 +22,4 @@ Basta executar os comandos a seguir:
 
 -   Primeiramente acessar o diretório
 -   g++ otimizacao-do-transporte.cpp -o nomeQualquer
-    nomeQualquer < arquivo-de-entrada.ins > arquivo-de-saida.txt
+-   nomeQualquer < arquivo-de-entrada.ins > arquivo-de-saida.txt
