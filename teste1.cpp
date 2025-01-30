@@ -168,7 +168,7 @@ class KDTree {
 
 
 int main() {
-    ifstream arquivo("../problema_das_paradas_de_onibus/instances/01.ins");
+    ifstream arquivo("../problema_das_paradas_de_onibus/instances/10.ins");
 
     string linha;
     int numero_de_vertices;
@@ -202,10 +202,10 @@ int main() {
     KDTree tree;
     tree.buildTree(vertices);
 
-    int primeiroPonto = 50;
+    int primeiroPonto = 1;
 
     // Marcar o ponto inicial como visitado
-    vertices[primeiroPonto].visitado = true;
+    vertices[primeiroPonto-1].visitado = true;
     tree.markAsVisited(tree.returnRoot(), vertices[primeiroPonto].id, vertices);
 
     vector<pair<int, double>> caminho;
