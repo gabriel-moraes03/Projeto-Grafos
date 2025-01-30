@@ -1,5 +1,9 @@
 # Projeto Final Grafos
 
+### Link para relatório:
+
+https://docs.google.com/document/d/1SpKjy77coXA9qU96z0LKDsuP6_mcFtZofpt3sWdrfNQ/edit?usp=sharing
+
 
 ## Teste 1 (teste1.cpp): Algortimo usando KD-Tree modifiado com distância pela fórmula de Haversine
 
